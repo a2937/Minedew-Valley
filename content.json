@@ -1,0 +1,104 @@
+{
+  "Format": "2.4.0",
+  "Changes": [
+   {
+    "LogName": "Load data for Mooshroom",
+    "Action": "EditData",
+    "Target": "Data/FarmAnimals",
+    "Entries": {
+     "Mooshroom": {
+      "DisplayName": "Mooshroom",
+      "House": "Barn",
+      "Gender": "MaleOrFemale",
+      "PurchasePrice": 750,
+      "SellPrice": 1500,
+      "ShopTexture": "LooseSprites\\Cursors",
+      "ShopSourceRect": {
+        "X": 32,
+        "Y": 448,
+        "Width": 32,
+        "Height": 16
+      },
+      "ShopDisplayName": "Mooshroom",
+      "ShopDescription": "A type of cow that has ingested mushroom spores and became part mushroom",
+      "RequiredBuilding": "Barn",
+      "UnlockCondition": null,
+      "EggItemIds": null,
+      "IncubationTime": -1,
+      "IncubatorParentSheetOffset": 1,
+      "BirthText": null,
+      "DaysToMature": 5,
+      "CanGetPregnant": true,
+      "DaysToProduce": 1,
+      "HarvestType": "HarvestWithTool",
+      "HarvestTool": "Milk Pail",
+      "ProduceItemIds": [
+        {
+          "Id": "Default",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "218"
+        }
+      ],
+      "DeluxeProduceItemIds": [
+        {
+          "Id": "Default",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "218"
+        }
+      ],
+      "ProduceOnMature": false,
+      "FriendshipForFasterProduce": -1,
+      "DeluxeProduceMinimumFriendship": 200,
+      "DeluxeProduceCareDivisor": 1200.0,
+      "DeluxeProduceLuckMultiplier": 0.0,
+      "CanEatGoldenCrackers": true,
+      "ProfessionForHappinessBoost": 3,
+      "ProfessionForQualityBoost": 3,
+      "ProfessionForFasterProduce": -1,
+      "Sound": "cow",
+      "BabySound": null,
+      "Texture": "Animals/a2937.Mushroom",
+      "HarvestedTexture": null,
+      "BabyTexture": "Animals/a2937.Mushroom Baby",
+      "UseFlippedRightForLeft": true,
+      "SpriteWidth": 32,
+      "SpriteHeight": 32,
+      "UseDoubleUniqueAnimationFrames": false,
+      "SleepFrame": 12,
+      "EmoteOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "SwimOffset": {
+        "X": 0,
+        "Y": 112
+      },
+      "Skins": null,
+      "ShadowWhenBabySwims": null,
+      "ShadowWhenBaby": null,
+      "ShadowWhenAdultSwims": null,
+      "ShadowWhenAdult": null,
+      "CanSwim": false,
+      "BabiesFollowAdults": false,
+      "GrassEatAmount": 4,
+      "HappinessDrain": 6,
+      "UpDownPetHitboxTileSize": "1, 1.75",
+      "LeftRightPetHitboxTileSize": "1.75, 1.25",
+      "BabyUpDownPetHitboxTileSize": "1, 1.75",
+      "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+      "StatToIncrementOnProduce": null,
+      "ShowInSummitCredits": true,
+      "CustomFields": null
+    }
+    }
+  },
+  {
+    "LogName": "Load shopIcon for Mooshroom",
+    "Action": "Load",
+    "Target": "Animals/a2937 ",
+    "FromFile": "assets\\mooshrum.png"
+  }
+  ]
+}
